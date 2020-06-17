@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:id="@+id/todo"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/primer_actividad"
+        android:textSize="30dp"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/boton1cambio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton1"
+        android:padding="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="431dp"
+
+        />
+
+    <Button
+        android:id="@+id/boton2brack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton2"
+        android:padding="60dp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="530dp"
+        />
+
+</LinearLayout>

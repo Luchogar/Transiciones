@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Acio Transitions</string>
+    <string name="primer_actividad">Estas en la primer actividad</string>
+    <string name="segunda_actividad">Estas en la segunda actividad</string>
+    <string name="boton1">Pasar a otra ventana</string>
+    <string name="boton2">Cambiar fondo</string>
+</resources>
